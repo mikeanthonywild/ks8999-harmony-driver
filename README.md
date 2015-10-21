@@ -1,5 +1,5 @@
-# ks8999-hardmony-modifications
-PHY driver and MPLab Harmony MAC/PHY modifications needed to get Micrel KS8999 ethernet switch working with PIC32MX. Due to a hard-coded dependancy on the MIIM (MII Management) interface, MPLab Harmony does not support Micrel's KS8999 ethernet switch because it lacks MIIM. This repository contains a working PHY driver and a set of patched PHY/MAC library files to remove the dependancy on MIIM.
+# KS8999 PHY driver for MPLAB Harmony
+PHY driver and MPLAB Harmony MAC/PHY modifications needed to get Micrel KS8999 ethernet switch working with PIC32MX. Due to a hard-coded dependancy on the MIIM (MII Management) interface, MPLab Harmony does not support Micrel's KS8999 ethernet switch because it lacks MIIM. This repository contains a working PHY driver and a set of patched PHY/MAC library files to remove the dependancy on MIIM.
 
 ## Method
 
